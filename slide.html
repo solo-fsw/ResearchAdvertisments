@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Slide</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="viewer">
+    <button id="prev">?</button>
+
+    <img id="slide">
+
+    <button id="next">?</button>
+</div>
+
+<p>
+<a href="index.html">Terug naar overzicht</a>
+</p>
+
+<script>
+const slides=[
+"slides/slide2.jpg",
+"slides/slide3.jpg"
+];
+
+let nr=parseInt(new URLSearchParams(location.search).get("n"))||0;
+
+const img=document.getElementById("slide");
+
+function show(){
+    img.src=slides[nr];
+}
+
+show();
+
+document.getElementById("prev").onclick=()=>{
+    if(nr>0){
+        nr--;
+        show();
+    }
+}
+
+document.getElementById("next").onclick=()=>{
+    if(nr<slides.length-1){
+        nr++;
+        show();
+    }
+}
+</script>
+
+</body>
+</html>
