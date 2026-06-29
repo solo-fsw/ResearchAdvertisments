@@ -1,6 +1,5 @@
 // Voeg hier je afbeeldingen toe
 const slides = [
-    "slides/Slide1.jpg",
     "slides/Slide2.jpg",
     "slides/Slide3.jpg",
     "slides/Slide4.jpg",
