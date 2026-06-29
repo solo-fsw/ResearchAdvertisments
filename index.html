@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="UTF-8">
-    <title>Slides</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Slides</title>
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Presentatie</h1>
+<header>
+<h1>Mijn Slides</h1>
+<p>Klik op een slide om deze groot te bekijken.</p>
+</header>
 
 <div id="gallery"></div>
+
+<div id="lightbox">
+
+<button id="close">&times;</button>
+
+<button class="nav prev">&#10094;</button>
+
+<img id="lightbox-img">
+
+<button class="nav next">&#10095;</button>
+
+<div id="counter"></div>
+
+</div>
 
 <script src="script.js"></script>
 
