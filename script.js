@@ -4,7 +4,7 @@ const images=[];
 const totalSlides=3;
 
 for(let i=1;i<=totalSlides;i++){
-    images.push(`images/slide${i}.jpg`);
+    images.push(`images/Slide${i}.jpg`);
 }
 
 const gallery=document.getElementById("gallery");
