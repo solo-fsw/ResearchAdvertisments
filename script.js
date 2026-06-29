@@ -1,10 +1,10 @@
 // Voeg hier je afbeeldingen toe
 const slides = [
-    "slides/slide1.jpg",
-    "slides/slide2.jpg",
-    "slides/slide3.jpg",
-    "slides/slide4.jpg",
-    "slides/slide5.jpg"
+    "slides/Slide1.jpg",
+    "slides/Slide2.jpg",
+    "slides/Slide3.jpg",
+    "slides/Slide4.jpg",
+    "slides/Slide5.jpg"
 ];
 
 const gallery = document.getElementById("gallery");
