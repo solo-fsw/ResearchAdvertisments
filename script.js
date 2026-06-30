@@ -1,8 +1,8 @@
 const slides = [
 
-"images/slide2.jpg",
-"images/slide3.jpg",
-"images/slide4.jpg"
+"ResearchAdvertisments/images/slide2.jpg",
+"ResearchAdvertisments/images/slide3.jpg",
+"ResearchAdvertisments/images/slide4.jpg"
 
 ];
 
