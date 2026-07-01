@@ -1,10 +1,11 @@
-const slides = [
+const eersteSlide = 2;
+const laatsteSlide = 12;
 
-"images/Slide2.jpg",
-"images/Slide3.jpg",
-"images/Slide4.jpg"
+const slides = [];
 
-];
+for (let i = eersteSlide; i <= laatsteSlide; i++) {
+    slides.push(`images/Slide${i}.jpg`);
+}
 
 
 const gallery=document.getElementById("gallery");
